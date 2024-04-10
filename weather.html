@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="weather.css">
+    <script defer src="cities.js"></script>
+    <script defer src="weather.js"></script>
+</head>
+
+<body>
+
+    <div class="card">
+        <!-- We have to create a dropdown menu for the cities using datapack -->
+        <form id="serach_form" class="search">
+            <input list="auto-comp" autocomplete="true" type="text" placeholder="Enter the city name" spellcheck="false" class="city" title="Search Bar">
+            <button type="submit" class="btn"><img src="image//search.png" id="image"></button>
+            <datalist id="auto-comp">
+            </datalist>
+        </form>
+        <div class="weather">
+            <img src="image//logo.png" class="weather_icon">
+            <h1> <a href="https://zoom.earth/" class="temp" title="Weather map">Temp °C</a></h1>
+            <h2 class="Name">City</h2>
+            <div class="details">
+                <div class="col">
+                    <img src="image//humidity.png" title="Humidity">
+                    <div>
+                        <p class="humidity">50%</p>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="image//wind.png" title="Wind speed">
+                    <div>
+                        <p class="speed">15 Km/h</p>
+                        <p>Wind Speed</p>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
