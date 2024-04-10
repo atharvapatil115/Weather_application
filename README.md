@@ -1,6 +1,6 @@
 ### Weather Application <br><br>
 
-This weather application provides real-time weather information for cities worldwide using HTML, CSS, and JavaScript.****
+This weather application provides real-time weather information for cities worldwide using HTML, CSS, and JavaScript.
 
 **Functionality**: Users input a city name and click "Search" to retrieve current weather details including temperature, wind speed, and humidity.<br>
 
@@ -12,8 +12,8 @@ This project serves as a perfect example for understanding and implementing asyn
 
 Future enhancements may include additional weather details and geolocation functionality. Contributions via pull requests are welcome to enhance this weather application's functionality and features.<br><br><br>
 
-How to Use:
-Clone the repository to your local machine.
+### How to Use: <br>
+Clone the repository to your local machine.<br>
 
 bash <br>
 git clone https://github.com/your-username/weather-app.git <br>
