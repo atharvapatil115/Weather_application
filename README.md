@@ -16,7 +16,7 @@ Future enhancements may include additional weather details and geolocation funct
 Clone the repository to your local machine.<br>
 
 bash <br>
-git clone https://github.com/your-username/weather-app.git <br>
+git clone https://github.com/your-username/weather_app.git <br>
 Open Weather.html in a web browser.<br>
 
 Enter the name of the city you want to check the weather for in the search bar and click "Search".<br>
